@@ -129,12 +129,14 @@ footer{
 	color: #ffffff;
 }
 footer div h3{
-
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 60px;
 	line-height: 20px;
+}
+.hireMe{
+	margin-top: -200px;
 }
 
 footer div p{
@@ -152,11 +154,12 @@ footer div h4{
 	font-weight: 500;
 	font-size: 30px;
 	line-height: 45px;
-	margin-top: 250px;
+	margin-top: 450px;
 }
 .fb{
 	margin-left: 150px;
 	float: left;
+	padding-bottom: 30px;
 }
 .gm{
 	margin-right: 150px;
@@ -164,21 +167,37 @@ footer div h4{
 }
 footer div div img{
 
-
 }
+
 .gmBlock img{
+	margin-top: 210px;
 	margin-left: 50px;
 	width: 200px;
 	float: right;
 	position: absolute;
 }
 .fbBlock img{
-	margin-top: 40px;
+	margin-top: 240px;
 	margin-left: -470px;
 	width: 140px;
 	position: absolute;
 }
-
+@media screen and (max-width: 1400px){
+	.fb{
+		margin-left: 60px;
+	}
+	.gm{
+		margin-right: 60px;
+	}
+	.gmBlock img{
+		margin-left: 60px;
+		width: 150px;
+	}
+	.fbBlock img{
+		margin-left: -400px;
+		width: 130px;
+	}
+}	
 
 @media screen and (max-width: 1200px){
 	/* Aboout */
@@ -405,24 +424,22 @@ footer div div img{
 		margin-right: 15px;
 	}
 	.gmBlock img{
-		margin-top: 40px;
+		margin-top: 80px;
 		margin-left: 35px;
 		width: 80px;
 	}
 	.fbBlock img{
-		margin-top: 50px;
+		margin-top: 95px;
 		margin-left: -175px;
 		width: 50px;
 	}
 }
 @media screen and (max-width: 400px){
 	.gmBlock img{
-		margin-top: 40px;
 		margin-left: 10px;
 		width: 80px;
 	}
 	.fbBlock img{
-		margin-top: 50px;
 		margin-left: -152px;
 		width: 50px;
 	}
@@ -442,12 +459,10 @@ footer div div img{
 	}
 	/* Contact */
 	.gmBlock img{
-		margin-top: 40px;
 		margin-left: -20px;
 		width: 80px;
 	}
 	.fbBlock img{
-		margin-top: 50px;
 		margin-left: -122px;
 		width: 50px;
 	}
