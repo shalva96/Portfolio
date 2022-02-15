@@ -1,0 +1,454 @@
+body{
+	background-color: #103783;
+	padding: 0px;
+	margin: 0px;
+}
+.content{
+	text-align: center;
+	margin: 0px auto;
+	width: 80%;
+	background-color: #103783;
+}
+.menuCon div button{
+	border: none; 
+	outline: none;
+	background: #103783;
+	color: #ffffff;
+}
+.mainText{
+	z-index: 100000;
+	width: 80%;
+	margin-top: 0%;
+	position: fixed;
+	background-color: #103783;
+	height: 50px;
+	text-align: right;
+	margin-right: 100px;
+	color: #ffffff;
+}
+.MenuText{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	padding-top: 10px;
+	line-height: 25px;
+	margin-right: 50px;
+}
+.aboutBar{
+	color: #FFFFFF;
+}
+.aboutBar h4{
+	position: absolute;
+	margin-left: 175px;
+	margin-top: 150px;
+	color: #F89B29;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 37px;
+
+}
+
+.aboutBar h2{
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 180px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 50px;
+}
+.aboutBar h2 span{
+	color: #F89B29;
+}
+.aboutBar p{
+	font-size: 20px;
+	width: 360px;
+	margin-left: 35px;
+	margin-top: 280px;
+	width: 468px;
+	height: 152px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 32px;
+}
+.aboutBar img{
+	width: 350px;
+	float: right;
+	margin-right: 50px;
+	margin-top: -350px;
+
+}
+.btn{
+	margin-top: 40px;
+	margin-left: 190px;
+	float: left;
+	width: 150px;
+	height: 65px;
+
+
+	background: linear-gradient(0deg, #F89B29, #F89B29);
+	border-radius: 20px;
+
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 60px;
+
+	color: #FFFFFF;
+}
+
+.imgContent{
+	margin-top: 700px;
+}
+.h3{
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+img{
+	width: 900px;
+	border-radius: 50px;
+}
+.block{
+	margin-top: 300px;
+	color: #ffffff;
+}
+
+footer{
+	margin-top: 420px;
+	margin-bottom: 100px;
+	color: #ffffff;
+}
+footer div h3{
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 20px;
+}
+
+footer div p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 55px;
+
+}
+
+footer div h4{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 45px;
+	margin-top: 250px;
+}
+.fb{
+	margin-left: 150px;
+	float: left;
+}
+.gm{
+	margin-right: 150px;
+	float: right;
+}
+footer div div img{
+
+
+}
+.gmBlock img{
+	margin-left: 50px;
+	width: 200px;
+	float: right;
+	position: absolute;
+}
+.fbBlock img{
+	margin-top: 40px;
+	margin-left: -470px;
+	width: 140px;
+	position: absolute;
+}
+
+
+@media screen and (max-width: 1200px){
+	/* Aboout */
+	.aboutBar{
+		margin-left: 0px;
+	}
+	.aboutBar h4{
+		margin-left: 130px;
+		font-size: 18px; 
+		margin-top: 180px;
+	}
+	.aboutBar h2{
+		margin-top: 200px;
+		margin-left: 100px;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.aboutBar p{
+		font-size: 18px;
+		width: 340px;
+		line-height: 25px;
+	}
+	.aboutBar button{
+		margin-left: 120px;
+		margin-top: 70px;
+	}
+	.aboutBar img{
+		width: 230px;
+		margin-right: 100px;
+		margin-top: -290px;
+	}
+
+
+		/* Project */
+	img{
+		width: 600px;
+	}
+	.h3{
+		font-size: 30px;
+	}
+
+	footer div h3{
+		font-size: 40px;
+	}
+	footer div p{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	footer div h4{
+		font-size: 20px;
+		line-height: 45px;
+		margin-top: 250px;
+	}
+	.fb{
+		margin-left: 100px;
+	}
+	.gm{
+		margin-right: 100px;
+	}
+	.gmBlock img{
+		margin-top: 40px;
+		margin-left: 0px;
+		width: 150px;
+	}
+	.fbBlock img{
+		margin-top: 50px;
+		margin-left: -290px;
+		width: 130px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	/* Aboout */
+	.aboutBar{
+		margin-left: 0px;
+	}
+	.aboutBar h4{
+		margin-left: 90px;
+		font-size: 14px; 
+		margin-top: 180px;
+	}
+	.aboutBar h2{
+		margin-top: 205px;
+		margin-left: 62px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.aboutBar p{
+		font-size: 14px;
+		width: 220px;
+		line-height: 20px;
+	}
+	.aboutBar button{
+		margin-left: 70px;
+		margin-top: 30px;
+		width: 120px;
+		height: 60px;
+		font-size: 21px;
+	}
+	.aboutBar img{
+		width: 200px;
+		margin-right: 30px;
+		margin-top: -260px;
+	}
+
+
+		/* Project */
+	img{
+		width: 450px;
+	}
+	.h3{
+		font-size: 20px;
+	}
+
+	footer div h3{
+		font-size: 30px;
+	}
+	footer div p{
+		font-size: 18px;
+		line-height: 35px;
+	}
+	footer div h4{
+		font-size: 18px;
+		line-height: 25px;
+		margin-top: 180px;
+	}
+	.fb{
+		margin-left: 40px;
+	}
+	.gm{
+		margin-right: 40px;
+	}
+	.gmBlock img{
+		margin-top: 40px;
+		margin-left: 20px;
+		width: 110px;
+	}
+	.fbBlock img{
+		margin-top: 50px;
+		margin-left: -235px;
+		width: 80px;
+	}
+}
+@media screen and (max-width: 600px){
+	.content{
+		margin-left: 20%;
+		background: #103783;
+		width: 100%;
+	}
+
+	/* Menu */
+	.mainText{
+		height: 50px;
+		text-align: center;
+		margin-right: 25px;
+		color: #ffffff;
+	}
+	.MenuText{
+		font-size: 16px;
+		line-height: 30px;
+		margin-right: 50px;
+	}
+	/* Aboout */
+	.aboutBar{
+		margin-left: 0px;
+	}
+	.aboutBar h4{
+		margin-left: 100px;
+		font-size: 14px; 
+		margin-top: 80px;
+	}
+	.aboutBar h2{
+		margin-top: 100px;
+		margin-left: 70px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.aboutBar p{
+		font-size: 14px;
+		width: 220px;
+		line-height: 20px;
+		margin-top: 320px;
+		margin-left: 50px;
+	}
+	.aboutBar button{
+		margin-left: 100px;
+		margin-top: 0px;
+		width: 120px;
+		height: 60px;
+		font-size: 21px;
+	}
+	.aboutBar img{
+		width: 150px;
+		float: left;
+		margin-left: 80px;
+		margin-top: -320px;
+	}
+
+
+		/* Project */
+	img{
+		width: 250px;
+	}
+	.h3{
+		font-size: 16px;
+	}
+
+	footer div h3{
+		font-size: 20px;
+	}
+	footer div p{
+		font-size: 12px;
+		line-height: 25px;
+	}
+	footer div h4{
+		font-size: 12px;
+		line-height: 25px;
+		margin-top: 180px;
+	}
+	.fb{
+		margin-left: 15px;
+	}
+	.gm{
+		margin-right: 15px;
+	}
+	.gmBlock img{
+		margin-top: 40px;
+		margin-left: 35px;
+		width: 80px;
+	}
+	.fbBlock img{
+		margin-top: 50px;
+		margin-left: -175px;
+		width: 50px;
+	}
+}
+@media screen and (max-width: 400px){
+	.gmBlock img{
+		margin-top: 40px;
+		margin-left: 10px;
+		width: 80px;
+	}
+	.fbBlock img{
+		margin-top: 50px;
+		margin-left: -152px;
+		width: 50px;
+	}
+}
+@media screen and (max-width: 370px){
+	/* Menu */
+	.mainText{
+		height: 50px;
+		text-align: center;
+		margin-right: 25px;
+		color: #ffffff;
+	}
+	.MenuText{
+		font-size: 14px;
+		line-height: 30px;
+		margin-right: 40px;
+	}
+	/* Contact */
+	.gmBlock img{
+		margin-top: 40px;
+		margin-left: -20px;
+		width: 80px;
+	}
+	.fbBlock img{
+		margin-top: 50px;
+		margin-left: -122px;
+		width: 50px;
+	}
+}
